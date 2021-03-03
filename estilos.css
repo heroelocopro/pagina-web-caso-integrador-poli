@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html { height: 100%; }
+body {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height] 
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 190px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+header a:hover{
+    color: red;
+}
+.contenedor-principal{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 70%;
+    padding-top: 15px;
+    padding-left: 45px;
+}
+.titulo{
+    margin-top: 50px;    
+    font-family: sans-serif;
+    margin-right: 1000px;   
+}
+
+.contacto{
+    margin-top: 70px;
+}
+#whatsapp{
+    
+    background: green;
+    border-radius: 100%;
+    font-size: 30px;
+}
+.contenedor-secundario{
+    
+}
+.navbar{
+    float: right;
+    margin-right: 100px;
+    
+}
+.navbar ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: -30px;
+    font-size: 25px;
+}
+.navbar a{
+    border: gray solid 1px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: rgba(128, 128, 128, 0.438);
+}
+.navbar a:hover{
+    background-color: gray;
+    overflow: hidden;
+    color: black;
+}
+.imagen-principal{
+    height: 600px;
+    background-image: url(../img/Poli.jfif);
+    background-size: cover;
+}
+.imagen-secundaria{
+    height: 300px;
+    background-color: rgb(17, 235, 100);
+    background-image: url(../img/);
+    background-size: cover;
+}
+#footer{
+    text-align: center;
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height]; 
+}
